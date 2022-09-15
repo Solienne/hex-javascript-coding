@@ -4,9 +4,9 @@ import {react} from "./subjects/React"
 import {subjects} from "./subjects/Subject"
 
 
-const cpp: Subjects.Cpp = new subjects.Cpp();
-const java: Subjects.Java = new subjects.Java();
-const react: Subjects.React = new subjects.React();
+const cpp: Subjects.Cpp = new Subjects.Cpp();
+const java: Subjects.Java = new Subjects.Java();
+const react: Subjects.React = new Subjects.React();
 
 Subjects.TeacherInterface = {
   firstName: `Guillaume`,
