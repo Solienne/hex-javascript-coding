@@ -29,4 +29,3 @@ react.setTeacher(cTeacher);
 console.log(react.getRequirements());
 console.log(react.getAvailableTeacher());
 
-console.log(cTeacher);
