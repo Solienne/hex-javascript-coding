@@ -1,7 +1,7 @@
-/// <reference path="./subjects/Cpp.ts" />
-/// <reference path="./subjects/Java.ts" />
-/// <reference path="./subjects/React.ts" />
-/// <reference path="./subjects/Subject.ts" />
+/// <reference path="./hex-javascript-coding/0x0B-TypeScript/task_4/js/subjects/Cpp.ts" />
+/// <reference path="./hex-javascript-coding/0x0B-TypeScript/task_4/js/subjects/Java.ts" />
+/// <reference path="./hex-javascript-coding/0x0B-TypeScript/task_4/js/subjects/React.ts" />
+/// <reference path="./hex-javascript-coding/0x0B-TypeScript/task_4/s/subjects/Subject.ts" />
 
 
 const cpp: Subjects.Cpp = new Subjects.Cpp();
