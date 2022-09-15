@@ -1,7 +1,7 @@
 import {cpp} from "./subjects/Cpp.ts";
 import {java} from "./subjects/Java.ts"
 import {react} from "./subjects/React.ts"
-import {subjects}"./subjects/Subject.ts"
+import {subjects} from "./subjects/Subject.ts"
 
 
 const cpp: Subjects.Cpp = new Subjects.Cpp();
