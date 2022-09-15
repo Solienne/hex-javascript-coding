@@ -1,6 +1,6 @@
-/// <reference path="./subject.ts/Cpp.ts" />
-/// <reference path="./subject.ts/Java.ts" />
-/// <reference path="./subject.ts/React.ts" />
+/// <reference path="./subjects/Cpp.ts" />
+/// <reference path="./subjects/Java.ts" />
+/// <reference path="./subjects/React.ts" />
 /// <reference path="./subjects/Subject.ts" />
 
 
