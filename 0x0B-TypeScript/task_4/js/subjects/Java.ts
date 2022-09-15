@@ -1,3 +1,4 @@
+
 namespace Subjects {
 	export interface TeacherInterface {
 		experienceTeachingJava?: number;
