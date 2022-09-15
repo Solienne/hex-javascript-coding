@@ -1,12 +1,12 @@
-import {cpp} from "./subjects/Cpp.ts";
-import {java} from "./subjects/Java.ts"
-import {react} from "./subjects/React.ts"
-import {subjects} from "./subjects/Subject.ts"
+import {cpp} from "./subjects/Cpp";
+import {java} from "./subjects/Java"
+import {react} from "./subjects/React"
+import {subjects} from "./subjects/Subject"
 
 
-const cpp: Subjects.Cpp = new Subjects.Cpp();
-const java: Subjects.Java = new Subjects.Java();
-const react: Subjects.React = new Subjects.React();
+const cpp: Subjects.Cpp = new subjects.Cpp();
+const java: Subjects.Java = new subjects.Java();
+const react: Subjects.React = new subjects.React();
 
 Subjects.TeacherInterface = {
   firstName: `Guillaume`,
