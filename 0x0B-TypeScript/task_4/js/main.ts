@@ -4,14 +4,14 @@
 /// <reference path="./subjects/Subject.ts" />
 
 
-const cpp: Subjects.Cpp = new Subjects.Cpp();
-const java: Subjects.Java = new Subjects.Java();
-const react: Subjects.React = new Subjects.React();
+const Cpp: Subjects.Cpp = {new Subjects.Cpp();};
+const Java: Subjects.Java = {new Subjects.Java();};
+const React: Subjects.React = {new Subjects.React();};
 
-const cTeacher: Subjects.TeacherInterface = {
+Subjects.TeacherInterface = {
   firstName: 'Guillaume',
   lastName: 'Salva',
-  experienceTeachingC: 10
+  experienceTeachingC: 10,
 };
 
 console.log('C++');
