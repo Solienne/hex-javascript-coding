@@ -9,8 +9,8 @@ const java: Subjects.Java = new Subjects.Java();
 const react: Subjects.React = new Subjects.React();
 
 cTeacher: Subjects.TeacherInterface = {
-  firstName: 'Guillaume',
-  lastName: 'Salva',
+  firstName: `Guillaume`,
+  lastName: `Salva`,
   experienceTeachingC: 10,
 };
 
