@@ -1,4 +1,4 @@
-import {Cpp} from "./subjects/Cpp";
+import {Cpp as Cpp} from "./subjects/Cpp";
 import {Java as Java} from "./subjects/Java";
 import {React as React} from "./subjects/React";
 import {Subject as Subject} from "./subjects/subject";
@@ -8,8 +8,8 @@ const java: Subjects.Java = new Subjects.Java();
 const react: Subjects.React = new Subjects.React();
 
 Subjects.TeacherInterface = {
-  firstName: 'Guillaume',
-  lastName: 'Salva',
+  firstName: "Guillaume",
+  lastName: "Salva",
   experienceTeachingC: 10,
 };
 
