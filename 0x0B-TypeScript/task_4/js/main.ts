@@ -1,4 +1,4 @@
-import * as C++ from "./subjects/Cpp";
+import * as 'C++' from "./subjects/Cpp";
 import {Java as Java} from "./subjects/Java";
 import {React as React} from "./subjects/React";
 import {Subject as Subject} from "./subjects/subject";
