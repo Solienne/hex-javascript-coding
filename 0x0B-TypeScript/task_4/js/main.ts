@@ -1,4 +1,4 @@
-import {Cpp}, from "./subjects/Cpp";
+import {Cpp} from "./subjects/Cpp";
 import {Java as Java} from "./subjects/Java";
 import {React as React} from "./subjects/React";
 import {Subject as Subject} from "./subjects/subject";
