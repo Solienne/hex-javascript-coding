@@ -1,7 +1,7 @@
 import {Cpp as C++} from "./subjects/Cpp";
 import {Java as Java} from "./subjects/Java";
 import {React as React} from "./subjects/React";
-import {Subbject as Subject} from "./subjects/subject";
+import {Subject as Subject} from "./subjects/subject";
 
 const cpp: Subjects.Cpp = new Subjects.Cpp();
 const java: Subjects.Java = new Subjects.Java();
