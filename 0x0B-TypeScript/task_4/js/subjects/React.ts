@@ -1,18 +1,14 @@
-/// <reference path="Cpp.ts" />
-/// <reference path="Java.ts" />
-/// <reference path="Subject.ts" />
-/// <reference path="Teacher.ts" />
 namespace Subjects {
-	export interface Teacher {
+	export interface TeacherInterface {
 		experienceTeachingReact?: number;
 	}
 
 	export class React extends Subject {
-		getRequirements(): string {
+		public getRequirements(): string {
 			return 'Here is the list of requirements for React';
 		}
 
-		getAvailableTeacher(): string {
+		public getAvailableTeacher(): string {
 			if (!this.teacher.experienceTeachingReact) {
 				return 'No available teacher';
 			}
