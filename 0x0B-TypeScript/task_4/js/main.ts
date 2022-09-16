@@ -1,8 +1,7 @@
-import*from "./subjects/Cpp";
-import*from "./subjects/Java"
-import*from "./subjects/React"
-import*from "./subjects/Subject"
-
+import *from "./subjects/Cpp";
+import *from "./subjects/Java"
+import *from "./subjects/React"
+import *from "./subjects/subject"
 
 const cpp: Subjects.Cpp = new Subjects.Cpp();
 const java: Subjects.Java = new Subjects.Java();
