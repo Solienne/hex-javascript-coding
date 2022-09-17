@@ -13,7 +13,9 @@ namespace Subjects {
 			if (!this.teacher.experienceTeachingC) {
 				return 'No available teacher';
 			}
-			return `Available Teacher: ${this.teacher.firstName}`;
+			else {return `Available Teacher: ${this.teacher.firstName}`;
+			}
 		}
+		return (0);	
 	}
 }

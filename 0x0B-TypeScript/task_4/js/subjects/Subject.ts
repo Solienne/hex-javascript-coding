@@ -6,6 +6,7 @@ namespace Subjects {
 		public setTeacher(teacher: TeacherInterface) {
 		this.teacher = teacher;
 		}
-											}
+		return (0);
+	}
 }
 

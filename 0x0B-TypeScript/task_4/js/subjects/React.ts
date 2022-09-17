@@ -12,8 +12,10 @@ namespace Subjects {
 			if (!this.teacher.experienceTeachingReact) {
 				return 'No available teacher';
 			}
-			return `Available Teacher: ${this.teacher.firstName}`;
+			else {return `Available Teacher: ${this.teacher.firstName}`;
+			}
 		}
+		return (0);
 	}
 
 }
