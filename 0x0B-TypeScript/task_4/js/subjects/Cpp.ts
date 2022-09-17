@@ -1,7 +1,7 @@
 ///<reference path="Subject.ts"/>
 namespace Subjects {
 	export interface TeacherInterface {
-		experienceTeachingC?: number;
+		experienceTeachingC: number;
 	}
 
 	export class Cpp extends Subject {
@@ -13,9 +13,7 @@ namespace Subjects {
 			if (!this.teacher.experienceTeachingC) {
 				return 'No available teacher';
 			}
-			else {return `Available Teacher: ${this.teacher.firstName}`;
-			}
-		}
-		return (0);	
+			return `Available Teacher: ${this.teacher.firstName}`;
+		}	
 	}
 }

@@ -12,9 +12,7 @@ namespace Subjects {
 			if (!this.teacher.experienceTeachingJava) {
 				return 'No available teacher';
 			}
-			else {return `Available Teacher: ${this.teacher.firstName}`;
-			}
+			return `Available Teacher: ${this.teacher.firstName}`;
 		}
-		return (0);
 	}
 }

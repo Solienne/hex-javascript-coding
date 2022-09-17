@@ -4,5 +4,4 @@ namespace Subjects {
 		firstName: string;
 		lastName: string;
 	}
-	return (0);
 }
